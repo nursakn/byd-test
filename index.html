@@ -1,692 +1,535 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>BYD</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet">
-    <link rel="stylesheet" href="/src/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="/src/css/style.css">
+    <title>Model</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/css/style.css"/>
+    <link rel="stylesheet" href="/src/css/models.css"/>
+    <link rel="stylesheet" href="/src/css/modal.css"/>
 </head>
 <body>
-    <header class="header">
-        <section class="header__general-container">
-            <div class="header__general-info wrapper">
-                <div class="header__general-info-left">
-                    <div class="header__location">
-                        <img
-                                src="/src/assets/icons/location.svg"
-                                alt="location"
-                                width="11"
-                                height="14"
-                        />
-                        <p>BYD Al-Farabi: г. Алматы, ул. Казыбек Тауасарулы, 3/3</p>
-                    </div>
-                    <div class="header__divider"></div>
-                    <a href="tel:+77719333113" class="header__phone">
-                        <img
-                                src="/src/assets/icons/phone.svg"
-                                alt="location"
-                                width="14"
-                                height="14"
-                        />
-                        <span>+7 771 933 31 13</span>
-                    </a>
-                </div>
-                <div class="header__contacts">
+<header class="header">
+    <section class="header__general-container">
+        <div class="header__general-info wrapper">
+            <div class="header__general-info-left">
+                <div class="header__location">
                     <img
-                            src="src/assets/icons/instagram.svg"
-                            alt="instagram"
+                            src="/src/assets/icons/location.svg"
+                            alt="location"
+                            width="11"
+                            height="14"
+                    />
+                    <p>
+                        BYD Al-Farabi: г. Алматы, ул. Казыбек
+                        Тауасарулы, 3/3
+                    </p>
+                </div>
+                <div class="header__divider"></div>
+                <a href="tel:+77719333113" class="header__phone">
+                    <img
+                            src="/src/assets/icons/phone.svg"
+                            alt="location"
+                            width="14"
+                            height="14"
+                    />
+                    <span>+7 771 933 31 13</span>
+                </a>
+            </div>
+            <div class="header__contacts">
+                <img
+                        src="src/assets/icons/instagram.svg"
+                        alt="instagram"
+                        height="14"
+                        width="14"
+                />
+                <a class="header__number-wrapper" href="tel:7007">
+                    <img
+                            src="src/assets/icons/phone.svg"
+                            alt="phone"
                             height="14"
                             width="14"
                     />
-                    <a class="header__number-wrapper" href="tel:7007">
+                    <span>7007</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="header__main-wrapper">
+        <div class="header__main wrapper">
+            <img
+                    class="header__logo"
+                    src="/src/assets/icons/byd-logo.svg"
+                    alt="logo"
+                    width="129"
+                    height="25"
+            />
+            <div class="header__nav-wrapper">
+                <nav class="header__nav">
+                    <a href="#">
+                        <span> Модельный ряд </span>
                         <img
-                                src="src/assets/icons/phone.svg"
-                                alt="phone"
-                                height="14"
-                                width="14"
+                                src="/src/assets/icons/chevron-down.svg"
+                                alt="chevron-down"
+                                width="10"
+                                height="6"
                         />
-                        <span>7007</span>
                     </a>
-                </div>
+                    <a href="#">
+                        <span> Покупка </span>
+                        <img
+                                src="/src/assets/icons/chevron-down.svg"
+                                alt="chevron-down"
+                                width="10"
+                                height="6"
+                        />
+                    </a>
+                    <a href="#">
+                        <span> Владельцам </span>
+                        <img
+                                src="/src/assets/icons/chevron-down.svg"
+                                alt="chevron-down"
+                                width="10"
+                                height="6"
+                        />
+                    </a>
+                    <a href="#">
+                        <span> Дилеры </span>
+                    </a>
+                    <a href="#">
+                        <span> О бренде </span>
+                    </a>
+                </nav>
             </div>
-        </section>
-        <section class="header__main-wrapper">
-            <div class="header__main wrapper">
+            <div class="header__lang">
                 <img
-                        class="header__logo"
-                        src="/src/assets/icons/byd-logo.svg"
-                        alt="logo"
-                        width="129"
-                        height="25"
+                        class="header__lang-icon"
+                        src="/src/assets/icons/globe.svg"
+                        alt="globe"
+                        width="20"
+                        height="20"
                 />
-                <div class="header__nav-wrapper">
-                    <nav class="header__nav">
-                        <a href="/models">
-                            <span>
-                                Модельный ряд
-                            </span>
-                            <img
-                                    src="/src/assets/icons/chevron-down.svg"
-                                    alt="chevron-down"
-                                    width="10"
-                                    height="6"
-                            />
-                        </a>
-                        <a href="#">
-                            <span>
-                                Покупка
-                            </span>
-                            <img
-                                    src="/src/assets/icons/chevron-down.svg"
-                                    alt="chevron-down"
-                                    width="10"
-                                    height="6"
-                            />
-                        </a>
-                        <a href="#">
-                            <span>
-                                Владельцам
-                            </span>
-                            <img
-                                    src="/src/assets/icons/chevron-down.svg"
-                                    alt="chevron-down"
-                                    width="10"
-                                    height="6"
-                            />
-                        </a>
-                        <a href="#">
-                            <span>
-                                Дилеры
-                            </span>
-                        </a>
-                        <a href="#">
-                            <span>
-                                О бренде
-                            </span>
-                        </a>
-                    </nav>
+                <div class="header__lang-buttons">
+                    <button>KZ</button>
+                    <div class="header__divider"></div>
+                    <button>RU</button>
                 </div>
-                <div class="header__lang">
-                    <img
-                            class="header__lang-icon"
-                            src="/src/assets/icons/globe.svg"
-                            alt="globe"
-                            width="20"
-                            height="20"
-                    />
-                    <div class="header__lang-buttons">
-                        <button>
-                            KZ
-                        </button>
-                        <div class="header__divider"></div>
-                        <button>
-                            RU
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </header>
-<main>
-
-<section class="hero">
-    <div class="swiper hero-swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
-            </div>
-            <div class="swiper-slide hero__slide">
-                <div class="hero-info__data wrapper">
-                    <h1 class="hero-info__title">
-                        ЛЕТО С BYD —
-                        <br>
-                        ВРЕМЯ ВЫГОД
-                    </h1>
-                    <p class="hero-info__text">
-                        Специальные условия и эксклюзивные
-                        <br>
-                        предложения
-                    </p>
-                    <div class="hero-info__buttons">
-                        <button class="button-hero hero-info__button-main">
-                            Оставить заявку
-                        </button>
-                        <button class="button-hero hero-info__button">
-                            Узнать больше
-                        </button>
-                    </div>
-                </div>
-                <img
-                        src="/src/assets/images/hero.webp"
-                        alt="hero"
-                        class="hero__image"
-                />
             </div>
         </div>
-
-        <div class="hero-swiper-button-prev">
+    </section>
+</header>
+<section class="model__hero">
+    <div class="model__hero-container wrapper">
+        <div class="model__hero-top">
             <img
-                    src="/src/assets/icons/arrow-left.svg"
-                    alt="prev"
-                    width="22"
-                    height="18"
-            >
-        </div>
-        <div class="hero-swiper-button-next">
-            <img
-                    src="/src/assets/icons/arrow-right.svg"
-                    alt="next"
-                    width="22"
-                    height="18"
-            >
-        </div>
-        <div class="swiper-pagination hero-swiper__pagination"></div>
-    </div>
-</section>
-<section class="models">
-    <div class="models__top">
-        <h2 class="models__title">Модельный ряд</h2>
-        <div class="models__selector-list">
-            <button class="models__selector-button models__selector-button--active" data-model="yuanup">
-                Yuan up
-            </button>
-            <button class="models__selector-button" data-model="songplusev">
-                Song Plus Ev
-            </button>
-            <button class="models__selector-button" data-model="songplusdmi">
-                Song Plus Dm-i
-            </button>
-            <button class="models__selector-button" data-model="han">
-                Han Ev
-            </button>
-        </div>
-    </div>
-    <div class="swiper models-swiper">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide models__slide" data-model="yuanup">
-                <img
-                        src="/src/assets/images/model-1.webp"
-                        loading="eager"
-                        alt="model-1"
-                        class="models__image"
-                        width="751"
-                        height="289"
-                />
-                <img src="/src/assets/images/model-1-logo-large.png" alt="model-1-logo" class="models__logo"/>
-            </div>
-            <div class="swiper-slide models__slide" data-model="songplusev">
-                <img
-                        src="/src/assets/images/model-1.webp"
-                        loading="eager"
-                        alt="model-2"
-                        class="models__image"
-                        width="751"
-                        height="289"
-                />
-                <img src="/src/assets/images/model-1-logo-large.png" alt="model-1-logo" class="models__logo"/>
-            </div>
-            <div class="swiper-slide models__slide" data-model="songplusdmi">
-                <img
-                        src="/src/assets/images/model-1.webp"
-                        loading="eager"
-                        alt="model-2"
-                        class="models__image"
-                        width="751"
-                        height="289"
-                />
-                <img src="/src/assets/images/model-1-logo-large.png" alt="model-1-logo" class="models__logo"/>
-            </div>
-            <div class="swiper-slide models__slide" data-model="han">
-                <img
-                        src="/src/assets/images/model-1.webp"
-                        loading="eager"
-                        alt="model-2"
-                        class="models__image"
-                        width="751"
-                        height="289"
-                />
-                <img src="/src/assets/images/model-1-logo-large.png" alt="model-1-logo" class="models__logo"/>
+                    class="model__hero-logo"
+                    src="/src/assets/images/song-hero-logo.webp"
+                    alt="song-ev-plus-logo"
+            />
+            <p class="model__hero-title">
+                Дизайн Ocean X Face — притягивающий взгляды
+            </p>
+            <div class="hero-info__buttons">
+                <button class="button-hero hero-info__button-main">
+                    Оставить заявку
+                </button>
+                <button class="button-hero hero-info__button">
+                    Узнать больше
+                </button>
             </div>
         </div>
-    </div>
-    <div class="models__data">
         <div class="models__info">
             <article class="models__preview">
                 <p class="models__preview-title">8,5 c</p>
-                <p class="models__preview-description">Разгон до 100 км/ч</p>
+                <p class="models__preview-description">
+                    Разгон до 100 км/ч
+                </p>
             </article>
             <div class="models__preview-divider"></div>
             <article class="models__preview">
                 <p class="models__preview-title">150 км / 1250 км</p>
-                <p class="models__preview-description">Запас хода на бензине / на электротяге</p>
+                <p class="models__preview-description">
+                    Запас хода на бензине / на электротяге
+                </p>
             </article>
             <div class="models__preview-divider"></div>
             <article class="models__preview">
                 <p class="models__preview-title">4,7 л</p>
-                <p class="models__preview-description">Расход топлива на 100 км</p>
+                <p class="models__preview-description">
+                    Расход топлива на 100 км
+                </p>
             </article>
         </div>
-        <div class="models__price-container">
-            <p class="models__price">
-                от 15 000 000 ₸
+    </div>
+</section>
+<section class="model__tabs">
+    <div class="model__tabs-container wrapper">
+        <img
+            class="model__tabs-logo"
+            src="/src/assets/images/song-logo-black.webp"
+            alt="song-logo-black"
+        />
+        <div class="model__tabs-wrapper">
+            <button class="tab-button active" data-tab="design">Дизайн</button>
+            <button class="tab-button" data-tab="warranty">Гарантия</button>
+            <button class="tab-button" data-tab="exterior">Экстерьер</button>
+            <button class="tab-button" data-tab="interior">Интерьер</button>
+            <button class="tab-button" data-tab="technologies">Технологии</button>
+        </div>
+        <label class="tab-select-label" for="tab-select">
+            <select name="tab-select" id="tab-select">
+                <option value="design">
+                    Дизайн
+                </option>
+                <option value="warranty">Гарантия</option>
+                <option value="exterior">Экстерьер</option>
+                <option value="interior">Интерьер</option>
+                <option value="technologies">Технологии</option>
+            </select>
+        </label>
+        <div class="models__tabs-buttons">
+            <button class="button button-transparent-black">Прайс-лист</button>
+            <button class="button button-black">Оставить заявку</button>
+            <button class="button button-transparent-black">Скачать каталог</button>
+        </div>
+    </div>
+</section>
+<section id="design-section" class="design">
+    <div class="design-container wrapper">
+        <div class="design-top">
+            <h2 class="design-title">Выберите свой цвет BYD</h2>
+            <p class="design-description">
+                Дизайн автомобилей BYD — это гармония технологий и эстетики: выразительные линии, премиальные детали
+                и продуманный облик, создающий впечатление даже в движении
             </p>
-            <div class="models__buttons">
-                <button class="models__button-main">Оставить заявку</button>
-                <button class="models__button">Узнать больше</button>
+            <div class="merged-buttons">
+                <button id="design-side-view" class="button merged-button active">Вид сбоку</button>
+                <button id="design-front-view" class="button merged-button">Вид спереди</button>
             </div>
+        </div>
+        <img class="design-image" src="/src/assets/images/song-front-black.webp" alt="song-front-black" />
+        <div class="design-bottom">
+            <div id="color-buttons" class="color-buttons">
+                <button class="color-button active" data-color="white">
+                    <span class="center-elem"></span>
+                </button>
+                <button class="color-button" data-color="beige">
+                    <span class="center-elem"></span>
+                </button>
+                <button class="color-button" data-color="black">
+                    <span class="center-elem"></span>
+                </button>
+                <button class="color-button" data-color="gray">
+                    <span class="center-elem"></span>
+                </button>
+            </div>
+            <p class="color-selected-text">Серый</p>
         </div>
     </div>
 </section>
-<section class="technology">
-    <div class="technology__grid wrapper">
-        <article class="technology__test-drive">
-            <div class="technology__container">
-                <div class="technology__text">
-                    <p class="technology__article-title">Запись на тест-драйв</p>
-                    <p class="technology__article-description">Испытайте BYD в движении! Записывайтесь на тест‑драйв и
-                        убедитесь в комфорте, динамике и технологиях автомобилей BYD лично.</p>
+<section id="warranty-section" class="warranty">
+    <div class="warranty-container wrapper">
+        <h2 class="warranty-title">Официальная заводская гарантия*</h2>
+        <div class="warranty-cards">
+            <article class="warranty-card">
+                <div class="warranty-card-top">
+                    <img src="/src/assets/icons/warranty-general.svg" alt="warranty-general" />
+                    <h3 class="warranty-card-title">Общая гарантия</h3>
                 </div>
-                <button>
-                    Оставить заявку
-                </button>
-            </div>
-        </article>
-        <article class="technology__service">
-            <div class="technology__container">
-                <div class="technology__text">
-                    <p class="technology__article-title">Запись на сервис</p>
-                    <p class="technology__article-description">Записывайтесь на сервис в удобное для вас время — наши
-                        специалисты позаботятся об автомобиле, чтобы он служил вам долго и надёжно</p>
+                <p class="warranty-card-description">6 лет / 150 000 км</p>
+            </article>
+            <article class="warranty-card">
+                <div class="warranty-card-top">
+                    <img src="/src/assets/icons/warranty-energy.svg" alt="warranty-energy" />
+                    <h3 class="warranty-card-title">Гарантия на батарею и электромотор</h3>
                 </div>
-                <button>
-                    Оставить заявку
-                </button>
-            </div>
-        </article>
-        <article class="technology__dealers">
-            <div class="technology__container">
-                <div class="technology__text">
-                    <p class="technology__article-number">15</p>
-                    <p class="technology__article-title-small">Дилеров BYD в Казахстане</p>
-                    <p class="technology__article-description">Благодаря постоянно расширяющейся сети зарядных станций и
-                        встроенным технологиям, позволяющим исключить догадки</p>
+                <p class="warranty-card-description">8 лет / 150 000 км</p>
+            </article>
+            <article class="warranty-card">
+                <div class="warranty-card-top">
+                    <img src="/src/assets/icons/warranty-shield.svg" alt="warranty-shield" />
+                    <h3 class="warranty-card-title">Гарантия на ходовую часть</h3>
                 </div>
-                <div class="technology__buttons">
-                    <button class="technology__button-main">
-                        Стать дилером
-                    </button>
-                    <button class="technology__button">
-                        Карта дилеров
-                    </button>
-                </div>
-            </div>
-        </article>
-        <article class="technology__charging">
-            <div class="technology__container">
-                <div class="technology__text">
-                    <p class="technology__article-number">245+</p>
-                    <p class="technology__article-title-small">Зарядных станций в Казахстане</p>
-                    <p class="technology__article-description">Благодаря постоянно расширяющейся сети зарядных станций и
-                        встроенным технологиям, позволяющим исключить догадки при планировании поездок, мы стремимся
-                        сделать жизнь электромобиля проще.</p>
-                </div>
-                <button>
-                    Карта зарядных станций
-                </button>
-            </div>
-        </article>
-    </div>
-</section>
-<section class="technology__cover-container pinned-section">
-    <h2 class="technology___title">
-        TECHNOLOGY GREEN FUTURE
-    </h2>
-<!--    <img-->
-<!--            class="technology__cover"-->
-<!--            src="/src/assets/images/technology.webp"-->
-<!--            alt="technology"-->
-<!--            width="1920"-->
-<!--            height="980"-->
-<!--    />-->
-</section>
-<section class="research">
-        <h2 class="research-title">Готовы к электрическим исследованиям</h2>
-        <div class="swiper research-swiper">
-            <div class="swiper-wrapper research-swiper-wrapper">
-                <article class="swiper-slide research-swiper-slide">
-                    <div class="research__text">
-                        <p class="research__item-title">Повышенная безопасность</p>
-                        <p class="research__item-description">Сырьевой материал, фосфат железа лития, обладает рядом
-                            полезных характеристик: медленное выделение тепла, низкая теплоотдача и отсутствие выделения
-                            кислорода. Уникальная форма плоского прямоугольника также улучшает эффективность охлаждения и
-                            предварительного нагрева. Батарея Blade Battery благополучно прошла тест на пробивание гвоздя,
-                            не выделяя огня или дыма.</p>
-                    </div>
-                    <div class="research__noop"></div>
-                </article>
-                <article class="swiper-slide research-swiper-slide">
-                    <div class="research__text">
-                        <p class="research__item-title">Оптимизированная прочность</p>
-                        <p class="research__item-description">Расположенные в виде массива в одной упаковке, каждая ячейка
-                            служит структурной балкой, помогающей противостоять силовому воздействию. Алюминиевая структура,
-                            напоминающая соты, с высокопрочными панелями на верхней и нижней стороне блока, значительно
-                            повышает жесткость в вертикальном направлении. Именно эта революционная конструкция обеспечивает
-                            оптимальную прочность батареи Blade.</p>
-                    </div>
-                    <div class="research__noop"></div>
-                </article>
-                <article class="swiper-slide research-swiper-slide">
-                    <div class="research__text">
-                        <p class="research__item-title">Увеличенный радиус действия</p>
-                        <p class="research__item-description">По сравнению с традиционными аккумуляторными блоками площадь,
-                            занимаемая батареей Blade, увеличена более чем на 50%, что обеспечивает повышенную плотность
-                            энергии и большую дальность действия.</p>
-                    </div>
-                    <div class="research__noop"></div>
-                </article>
-                <article class="swiper-slide research-swiper-slide">
-                    <div class="research__text">
-                        <p class="research__item-title">Более длительный срок службы</p>
-                        <p class="research__item-description">Батарея Blade Battery имеет длительный срок службы — более
-                            5000 циклов заряда и разряда.</p>
-                    </div>
-                    <div class="research__noop"></div>
-                </article>
-            </div>
-            <div class="swiper-pagination research-swiper__pagination"></div>
+                <p class="warranty-card-description">4 года / 120 000 км</p>
+            </article>
         </div>
-</section>
-<section class="ecology pinned-section">
-    <h2 class="ecology__title">Понизим температуру Земли на 1°С</h2>
-    <p class="ecology__description">Технология зеленого будущего</p>
-    <button class="ecology__button">
-        Узнать больше
-    </button>
-</section>
-<section class="news wrapper">
-    <div class="news__top">
-        <h2 class="news__title">
-            Новости
-        </h2>
-        <button class="news__all">
-            <span>Все новости</span>
-            <img
-                    src="/src/assets/icons/arrow-right.svg"
-                    alt="arrow-right"
-            />
+        <p class="warranty-disclaimer">
+            <span class="warranty-disclaimer-star">*</span>
+            <span class="warranty-disclaimer-text">В официальную заводскую гарантию входят:</span>
+        </p>
+        <div class="warranty-included-list">
+            <article class="warranty-included">
+                <img class="warranty-included-icon" src="/src/assets/icons/warranty-tech.svg" alt="warranty-tech" />
+                <p class="warranty-included-title">Квалифицированное техническое обслуживание</p>
+            </article>
+            <article class="warranty-included">
+                <img class="warranty-included-icon" src="/src/assets/icons/warranty-interface.svg" alt="warranty-interface" />
+                <p class="warranty-included-title">Интерфейс на русском и казахском языках</p>
+            </article>
+            <article class="warranty-included">
+                <img class="warranty-included-icon" src="/src/assets/icons/warranty-key.svg" alt="warranty-key" />
+                <p class="warranty-included-title">Адаптация под климатические и дорожные условия</p>
+            </article>
+        </div>
+        <button class="button button-transparent-white">
+            Узнать больше о гарантии
         </button>
     </div>
-    <div class="news__list">
-        <article class="news__article">
-            <img
-                    class="news__image"
-                    src="/src/assets/images/news-1.webp"
-                    alt="news-1"
-                    width="445"
-                    height="270"
-            />
-            <p class="news__date">25 апреля 2025</p>
-            <h3 class="news__item-title">
-                Весь модельный ряд автомобилей BYD теперь можно купить онлайн
+</section>
+<div id="exterior-section">
+    <section class="exterior-overview">
+        <div class="exterior-overview-container wrapper">
+            <h2 class="exterior-overview-title">Экстерьер</h2>
+            <p class="exterior-overview-description">
+                Современный, выразительный и продуманный до мелочей — экстерьер автомобилей BYD сочетает элегантность и динамику, привлекая внимание с первого взгляда.
+            </p>
+        </div>
+    </section>
+    <section class="exterior-details">
+        <div class="exterior-details-container wrapper">
+            <div class="exterior-card-list">
+                <article class="exterior-card">
+                    <div class="exterior-card-image" style="background-image: url('/src/assets/images/song-exterior-headlights.webp')"></div>
+                    <div class="exterior-card-text">
+                        <h3 class="exterior-card-title">
+                            Фары, как отблески океана
+                        </h3>
+                        <p class="exterior-card-description">
+                            Двойные U-образные фары сверкают, словно глубокие сияния океана. Встроенные хрустальные световые полосы обладают великолепной текстурой и завораживают своими искрящимися вспышками.
+                        </p>
+                    </div>
+                </article>
+                <article class="exterior-card">
+                    <div class="exterior-card-image" style="background-image: url('/src/assets/images/song-exterior-rearlights.webp')"></div>
+                    <div class="exterior-card-text">
+                        <h3 class="exterior-card-title">
+                            Фары, как отблески океана
+                        </h3>
+                        <p class="exterior-card-description">
+                            Двойные U-образные фары сверкают, словно глубокие сияния океана. Встроенные хрустальные световые полосы обладают великолепной текстурой и завораживают своими искрящимися вспышками.
+                        </p>
+                    </div>
+                </article>
+                <article class="exterior-card">
+                    <div class="exterior-card-image" style="background-image: url('/src/assets/images/song-exterior-front.webp')"></div>
+                    <div class="exterior-card-text">
+                        <h3 class="exterior-card-title">
+                            Фары, как отблески океана
+                        </h3>
+                        <p class="exterior-card-description">
+                            Двойные U-образные фары сверкают, словно глубокие сияния океана. Встроенные хрустальные световые полосы обладают великолепной текстурой и завораживают своими искрящимися вспышками.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</div>
+<section class="interior" id="interior-section">
+    <div class="interior-top-container wrapper-small">
+        <h2 class="exterior-overview-title">Новый интерьер: Ритм океана</h2>
+        <p class="exterior-overview-description">
+            Откройте для себя новое пространство, наполненное ощущением красоты и свободы. Интерьер созданный для максимального комфорта и наслаждения, отражающий гармонию и свежесть волн океана.
+        </p>
+    </div>
+    <div class="interior-image-container">
+        <img class="interior-image" src="/src/assets/images/song-interior.webp" alt="song-interior" />
+    </div>
+    <div class="interior-grid wrapper">
+        <article class="interior-card">
+            <img class="interior-card-image" src="/src/assets/images/song-interior-roof.webp" alt="song-interior-roof" />
+            <h3 class="interior-card-title">
+                Панорманая крыша
             </h3>
-            <p class="news__description">
-                Продажи в РК выросли в 2,5 раза за полгода — китайский бренд укрепляет позиции в премиум‑сегменте.
+            <p class="interior-card-description">
+                Панорамная крыша BYD Song Plus предлагает широкий обзор и делает салон более светлым и просторным. Эта особенность добавляет элегантности и комфорта, улучшая общее впечатление от поездки.
             </p>
         </article>
-        <article class="news__article">
-            <img
-                    class="news__image"
-                    src="/src/assets/images/news-2.webp"
-                    alt="news-2"
-                    width="445"
-                    height="270"
-            />
-            <p class="news__date">25 апреля 2025</p>
-            <h3 class="news__item-title">
-                Весь модельный ряд автомобилей BYD теперь можно купить онлайн
+        <article class="interior-card">
+            <img class="interior-card-image" src="/src/assets/images/song-interior-system.webp" alt="song-interior-roof" />
+            <h3 class="interior-card-title">
+                Интеллектуальная система BYD
             </h3>
-            <p class="news__description">
-                Продажи в РК выросли в 2,5 раза за полгода — китайский бренд укрепляет позиции в премиум‑сегменте.
+            <p class="interior-card-description">
+                Система, которая всесторонне связывает людей, автомобиль и жизнь. Просто скажите «Hi, BYD!», и вы мгновенно вступите в новую эру связи между человеком и автомобилем
             </p>
         </article>
-        <article class="news__article">
-            <img
-                    class="news__image"
-                    src="/src/assets/images/news-3.webp"
-                    alt="news-3"
-                    width="445"
-                    height="270"
-            />
-            <p class="news__date">25 апреля 2025</p>
-            <h3 class="news__item-title">
-                Весь модельный ряд автомобилей BYD теперь можно купить онлайн
+        <article class="interior-card">
+            <img class="interior-card-image" src="/src/assets/images/song-interior-innovation.webp" alt="song-interior-roof" />
+            <h3 class="interior-card-title">
+                Элегантность и Инновации BYD
             </h3>
-            <p class="news__description">
-                Продажи в РК выросли в 2,5 раза за полгода — китайский бренд укрепляет позиции в премиум‑сегменте.
+            <p class="interior-card-description">
+                Унаследовав классический стиль линейки Ocean, известный своей простотой и эстетикой, новый дизайн центрального блока управления выделяется оригинальностью и обеспечивает максимальное удобство в управлении.
+            </p>
+        </article>
+        <article class="interior-card">
+            <img class="interior-card-image" src="/src/assets/images/song-interior-silence.webp" alt="song-interior-roof" />
+            <h3 class="interior-card-title">
+                Тихое пространство с эффективным шумоподавлением
+            </h3>
+            <p class="interior-card-description">
+                Интерьер автомобиля оформлен с использованием акустических материалов, а окна изготовлены из высококачественного шумоизолирующего стекла, что обеспечивает создание тихой и уединенной зоны внутри салона
             </p>
         </article>
     </div>
 </section>
-</main>
+<section class="model-technology">
+    <div class="model-technology-container wrapper-small">
+        <h2 class="model-technology-title">Технологии батареи</h2>
+        <p class="model-technology-description">Song Plus EV поддерживает быструю зарядку, что позволяет оперативно пополнять заряд батареи и существенно сокращает время простоя.</p>
+    </div>
+</section>
+<section class="model-technology-battery">
+    <article class="model-battery-card">
+        <div class="model-battery-image"></div>
+        <div class="model-battery-text">
+            <h3 class="model-battery-title">Технология батареи Blade</h3>
+            <p class="model-battery-distance">602 км</p>
+            <p class="model-battery-description">
+                Song Plus EV обеспечивает внушительный запас хода на одной зарядке, снижая необходимость частой подзарядки и делая автомобиль идеальным для дальних поездок
+            </p>
+        </div>
+    </article>
+</section>
+<section class="model-technologies">
+    <div class="model-technologies-container wrapper">
+        <div class="model-technologies-list">
+            <article class="model-technology-card">
+                <img src="/src/assets/images/technology-driver.webp" alt="technology-driver" />
+                <h3 class="model-technology-card-title">
+                    Электропривод нового поколения
+                </h3>
+                <p class="model-technology-card-description">
+                    Представляет собой передовую технологию, предлагающую выдающуюся мощность, эффективность и надежность. Сочетание высокой интеграции и продуманной конструкции обеспечивает оптимальную производительность и плавное управление.
+                </p>
+            </article>
+            <article class="model-technology-card">
+                <img src="/src/assets/images/technology-battery-blade.webp" alt="technology-battery-blade" />
+                <h3 class="model-technology-card-title">
+                    Высокая безопасность и длительный срок службы батареи Blade
+                </h3>
+                <p class="model-technology-card-description">
+                    Батарея Blade обеспечивает максимальную безопасность во время поездок и отличается длительным сроком службы. При низких температурах она заряжается существенно быстрее, чем у аналогичных автомобилей, обеспечивая надежность и комфорт в эксплуатации.
+                </p>
+            </article>
+            <article class="model-technology-card">
+                <img src="/src/assets/images/technology-conditioner.webp" alt="technology-conditioner" />
+                <h3 class="model-technology-card-title">
+                    Система кондиционирования с эффективным тепловым насосом
+                </h3>
+                <p class="model-technology-card-description">
+                    Система прямого нагрева батареи повышает теплообмен, снижает энергопотребление и обеспечивает безопасность.
+                </p>
+            </article>
+        </div>
+
+        <div class="exterior-card-list">
+            <article class="exterior-card">
+                <div class="exterior-card-image" style="background-image: url('/src/assets/images/technology-sonar.webp')"></div>
+                <div class="exterior-card-text">
+                    <h3 class="exterior-card-title">
+                        Интеллектуальная система помощи при вождении
+                    </h3>
+                    <p class="exterior-card-description">
+                        Система обеспечивает автоматическое управление и поддержку в сложных дорожных ситуациях, улучшая безопасность и комфорт. Включает функции, такие как автоматическое экстренное торможение, адаптивный круиз-контроль и помощь в удержании полосы.
+                    </p>
+                </div>
+            </article>
+            <article class="exterior-card">
+                <div class="exterior-card-image" style="background-image: url('/src/assets/images/technology-comfort.webp')"></div>
+                <div class="exterior-card-text">
+                    <h3 class="exterior-card-title">
+                        Беспроводная зарядка
+                        для смартфона
+                    </h3>
+                    <p class="exterior-card-description">
+                        Беспроводная зарядка для смартфона
+                    </p>
+                </div>
+            </article>
+        </div>
+
+        <div class="model-technologies-list">
+            <article class="model-technology-card">
+                <img src="/src/assets/images/technology-assistance.webp" alt="technology-driver" />
+                <h3 class="model-technology-card-title">
+                    Интеллектуальная система помощи
+                </h3>
+                <p class="model-technology-card-description">
+                    ACC-S&G (адаптивный круиз-контроль с функцией Stop & Go), EBA (помощь при экстренном торможении), TJA (помощь при движении в пробке), BSD (обнаружение слепых зон), DOW (предупреждение об открытии дверей) и FCT (предупреждение о лобовом столкновении/торможение).
+                </p>
+            </article>
+            <article class="model-technology-card">
+                <img src="/src/assets/images/technology-battery-blade.webp" alt="technology-battery-blade" />
+                <h3 class="model-technology-card-title">
+                    360° голографический панорамный вид
+                </h3>
+                <p class="model-technology-card-description">
+                    Современная система, обеспечивающая всесторонний обзор окружающей обстановки. Она повышает безопасность и упрощает маневрирование, предоставляя водителю ясное изображение всех сторон автомобиля и увеличивая уверенность на дороге.
+                </p>
+            </article>
+            <article class="model-technology-card">
+                <img src="/src/assets/images/technology-conditioner.webp" alt="technology-conditioner" />
+                <h3 class="model-technology-card-title">
+                    Конструкция безопасного кузова
+                </h3>
+                <p class="model-technology-card-description">
+                    Автомобиль оснащен конструкцией, которая эффективно поглощает ударную энергию. Более 60% кузова выполнено из высокопрочной стали, обеспечивая всестороннюю защиту.
+                </p>
+            </article>
+        </div>
+    </div>
+</section>
+<section class="technologies" id="technologies-section">
+    <div class="technologies-container">
+        <h2 class="technologies-title">Живите активно, заряжаясь от BYD</h2>
+        <div class="technologies-buttons">
+            <button class="button button-transparent-white">Купить онлайн</button>
+            <button class="button button-white">Оставить заявку</button>
+            <button class="button button-transparent-white">Тест-драйв</button>
+        </div>
+    </div>
+</section>
+
+
+<!--<button data-micromodal-trigger="modal-1" class="button button-black">trigger</button>-->
+<!--<div class="modal micromodal-slide" id="modal-1" aria-hidden="true">-->
+<!--    <div class="modal__overlay" tabindex="-1" data-micromodal-close>-->
+<!--        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-1-title">-->
+<!--            <header class="modal__header">-->
+<!--                <h2 class="modal__title" id="modal-1-title">-->
+<!--                    Micromodal 🔥-->
+<!--                </h2>-->
+<!--                <button class="modal__close" aria-label="Close modal" data-micromodal-close></button>-->
+<!--            </header>-->
+<!--            <div class="modal__content" id="modal-1-content">-->
+<!--                <p>This is a completely accessible modal.</p>-->
+<!--                <p>-->
+<!--                    Try hitting the <code>tab</code> key* and notice how the focus stays within the modal itself. To close modal-->
+<!--                    hit the <code>esc</code> button, click on the overlay or just click the close button.-->
+<!--                </p>-->
+<!--                <p>-->
+<!--                    <small>* <code>alt+tab</code> in safari</small>-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <footer class="modal__footer">-->
+<!--                <button class="modal__btn modal__btn-primary">Continue</button>-->
+<!--                <button class="modal__btn" data-micromodal-close aria-label="Close this dialog window">Close</button>-->
+<!--            </footer>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+
 <footer class="footer">
     <div class="wrapper">
         <div class="footer-wrapper">
@@ -817,8 +660,7 @@
         </div>
     </div>
 </footer>
-
 </body>
-<script type="module" src="/src/js/swiper-bundle.min.js"></script>
+<script src="/src/js/swiper-bundle.min.js"></script>
 <script type="module" src="/src/js/main.js"></script>
 </html>

@@ -6,7 +6,6 @@ import {Swiper} from './swiper-bundle.min.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
-
 $(document).ready(function () {
     MicroModal.init();
 
