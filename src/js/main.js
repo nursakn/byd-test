@@ -2,7 +2,7 @@ import $ from 'jquery';
 import MicroModal from 'micromodal';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/ScrollTrigger';
-import Swiper from './swiper-bundle.min.js';
+import {Swiper} from './swiper-bundle.min.js';
 
 gsap.registerPlugin(ScrollTrigger);
 
